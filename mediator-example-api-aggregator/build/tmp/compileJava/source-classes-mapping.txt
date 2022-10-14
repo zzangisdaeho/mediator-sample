@@ -1,0 +1,17 @@
+org/example/mediator/model/PurchaseOrder.java
+ org.example.mediator.model.PurchaseOrder
+ org.example.mediator.model.PurchaseOrder$PurchaseOrderBuilder
+org/example/mediator/flow/payment/SimplePaymentSearchFlow.java
+ org.example.mediator.flow.payment.SimplePaymentSearchFlow
+org/example/mediator/flow/order/OrderProcessor.java
+ org.example.mediator.flow.order.OrderProcessor
+org/example/mediator/ApiAggregatorApp.java
+ org.example.mediator.ApiAggregatorApp
+org/example/mediator/flow/order/SearchSegment.java
+ org.example.mediator.flow.order.SearchSegment
+ org.example.mediator.flow.order.SearchSegment$SearchSegmentBuilder
+org/example/mediator/model/Payment.java
+ org.example.mediator.model.Payment
+ org.example.mediator.model.Payment$PaymentBuilder
+org/example/mediator/flow/order/OrderSearchAggregateFlow.java
+ org.example.mediator.flow.order.OrderSearchAggregateFlow

@@ -1,4 +1,4 @@
-package org.example.mediator.flow.controller;
+package org.example.mediator.controller;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;

@@ -20,20 +20,20 @@ import java.util.List;
 @Configuration
 public class OrderSearchAggregateFlow {
 
-    @Bean("order.get.flow")
-    public IntegrationFlow orderGetFlow() {
-
-        return IntegrationFlows
-                .from(
-                        Http.inboundGateway("orders/{orderId}")
-                        .requestMapping( r -> r.methods(HttpMethod.GET))
-                        .payloadExpression("#pathVariables.orderId")
-                        .replyChannel("order.detail.get.response")
-
-                )
-                .channel("order.search.split")
-                .get();
-    }
+//    @Bean("order.get.flow")
+//    public IntegrationFlow orderGetFlow() {
+//
+//        return IntegrationFlows
+//                .from(
+//                        Http.inboundGateway("orders/{orderId}")
+//                        .requestMapping( r -> r.methods(HttpMethod.GET))
+//                        .payloadExpression("#pathVariables.orderId")
+//                        .replyChannel("order.detail.get.response")
+//
+//                )
+//                .channel("order.search.split")
+//                .get();
+//    }
 
     @Bean("order.detail.get.response")
     public DirectChannel orderDetailResponseChannel() {

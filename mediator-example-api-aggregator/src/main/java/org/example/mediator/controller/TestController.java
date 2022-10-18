@@ -1,4 +1,4 @@
-package org.example.mediator.flow.controller;
+package org.example.mediator.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

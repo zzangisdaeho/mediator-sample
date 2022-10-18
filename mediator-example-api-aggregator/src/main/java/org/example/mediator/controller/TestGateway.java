@@ -1,4 +1,4 @@
-package org.example.mediator.flow.controller;
+package org.example.mediator.controller;
 
 import org.springframework.integration.annotation.MessagingGateway;
 
